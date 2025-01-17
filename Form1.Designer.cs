@@ -33,7 +33,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(513, 194);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(438, 169);
