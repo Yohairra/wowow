@@ -55,12 +55,13 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button3.Location = new System.Drawing.Point(375, 265);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(324, 105);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
