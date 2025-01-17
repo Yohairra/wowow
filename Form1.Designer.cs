@@ -31,11 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.roundedButton3 = new BrbVideoManager.Controls.RoundedButton();
             this.roundedButton1 = new BrbVideoManager.Controls.RoundedButton();
             this.roundedButton2 = new BrbVideoManager.Controls.RoundedButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.roundedButton4 = new BrbVideoManager.Controls.RoundedButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +54,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(460, 977);
             this.panel1.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-16, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1455, 245);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // roundedButton3
             // 
@@ -130,28 +148,28 @@
             this.roundedButton2.UseVisualStyleBackColor = true;
             this.roundedButton2.Click += new System.EventHandler(this.RoundedButton2_Click_1);
             // 
-            // pictureBox1
+            // roundedButton4
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-16, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1455, 245);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.roundedButton4.BorderColor = System.Drawing.Color.Blue;
+            this.roundedButton4.BorderDownColor = System.Drawing.Color.Empty;
+            this.roundedButton4.BorderDownWidth = 0F;
+            this.roundedButton4.BorderOverColor = System.Drawing.Color.Empty;
+            this.roundedButton4.BorderOverWidth = 0F;
+            this.roundedButton4.BorderRadius = 50;
+            this.roundedButton4.BorderWidth = 1.75F;
+            this.roundedButton4.Location = new System.Drawing.Point(33, 293);
+            this.roundedButton4.Name = "roundedButton4";
+            this.roundedButton4.Size = new System.Drawing.Size(219, 150);
+            this.roundedButton4.TabIndex = 5;
+            this.roundedButton4.Text = "roundedButton4";
+            this.roundedButton4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1422, 977);
+            this.Controls.Add(this.roundedButton4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -172,6 +190,7 @@
         private BrbVideoManager.Controls.RoundedButton roundedButton1;
         private BrbVideoManager.Controls.RoundedButton roundedButton3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private BrbVideoManager.Controls.RoundedButton roundedButton4;
     }
 }
 
