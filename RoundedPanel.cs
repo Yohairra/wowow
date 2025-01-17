@@ -18,6 +18,9 @@ namespace YourNamespace
             // Create the rounded rectangle path
             using (GraphicsPath path = GetRoundedRectanglePath(this.ClientRectangle, CornerRadius))
             {
+                // Set clip region to achieve rounded corners
+                this.Region = new Region(path);
+
                 // Fill the background
                 using (SolidBrush brush = new SolidBrush(this.BackColor))
                 {

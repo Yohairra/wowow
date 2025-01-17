@@ -36,7 +36,7 @@
             this.roundedButton3 = new BrbVideoManager.Controls.RoundedButton();
             this.roundedButton1 = new BrbVideoManager.Controls.RoundedButton();
             this.roundedButton2 = new BrbVideoManager.Controls.RoundedButton();
-            this.roundedButton4 = new BrbVideoManager.Controls.RoundedButton();
+            this.roundedPanel1 = new YourNamespace.RoundedPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -148,28 +148,22 @@
             this.roundedButton2.UseVisualStyleBackColor = true;
             this.roundedButton2.Click += new System.EventHandler(this.RoundedButton2_Click_1);
             // 
-            // roundedButton4
+            // roundedPanel1
             // 
-            this.roundedButton4.BorderColor = System.Drawing.Color.Blue;
-            this.roundedButton4.BorderDownColor = System.Drawing.Color.Empty;
-            this.roundedButton4.BorderDownWidth = 0F;
-            this.roundedButton4.BorderOverColor = System.Drawing.Color.Empty;
-            this.roundedButton4.BorderOverWidth = 0F;
-            this.roundedButton4.BorderRadius = 50;
-            this.roundedButton4.BorderWidth = 1.75F;
-            this.roundedButton4.Location = new System.Drawing.Point(33, 293);
-            this.roundedButton4.Name = "roundedButton4";
-            this.roundedButton4.Size = new System.Drawing.Size(219, 150);
-            this.roundedButton4.TabIndex = 5;
-            this.roundedButton4.Text = "roundedButton4";
-            this.roundedButton4.UseVisualStyleBackColor = true;
+            this.roundedPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.roundedPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.roundedPanel1.CornerRadius = 20;
+            this.roundedPanel1.Location = new System.Drawing.Point(43, 287);
+            this.roundedPanel1.Name = "roundedPanel1";
+            this.roundedPanel1.Size = new System.Drawing.Size(243, 128);
+            this.roundedPanel1.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1422, 977);
-            this.Controls.Add(this.roundedButton4);
+            this.Controls.Add(this.roundedPanel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -190,7 +184,7 @@
         private BrbVideoManager.Controls.RoundedButton roundedButton1;
         private BrbVideoManager.Controls.RoundedButton roundedButton3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private BrbVideoManager.Controls.RoundedButton roundedButton4;
+        private YourNamespace.RoundedPanel roundedPanel1;
     }
 }
 
