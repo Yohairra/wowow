@@ -40,17 +40,17 @@ namespace wowow
 
         }
 
-        private void roundedButton1_Click(object sender, EventArgs e)
+        private void RoundedButton1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void roundedButton2_Click_1(object sender, EventArgs e)
+        private void RoundedButton2_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void roundedButton3_Click(object sender, EventArgs e)
+        private void RoundedButton3_Click(object sender, EventArgs e)
         {
 
         }
