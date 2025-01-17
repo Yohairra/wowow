@@ -36,6 +36,7 @@
             this.roundedButton2 = new BrbVideoManager.Controls.RoundedButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.roundedButton4 = new BrbVideoManager.Controls.RoundedButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -147,11 +148,28 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // roundedButton4
+            // 
+            this.roundedButton4.BorderColor = System.Drawing.Color.Blue;
+            this.roundedButton4.BorderDownColor = System.Drawing.Color.Empty;
+            this.roundedButton4.BorderDownWidth = 0F;
+            this.roundedButton4.BorderOverColor = System.Drawing.Color.Empty;
+            this.roundedButton4.BorderOverWidth = 0F;
+            this.roundedButton4.BorderRadius = 50;
+            this.roundedButton4.BorderWidth = 1.75F;
+            this.roundedButton4.Location = new System.Drawing.Point(65, 303);
+            this.roundedButton4.Name = "roundedButton4";
+            this.roundedButton4.Size = new System.Drawing.Size(168, 100);
+            this.roundedButton4.TabIndex = 5;
+            this.roundedButton4.Text = "roundedButton4";
+            this.roundedButton4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1422, 977);
+            this.Controls.Add(this.roundedButton4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -172,6 +190,7 @@
         private BrbVideoManager.Controls.RoundedButton roundedButton1;
         private BrbVideoManager.Controls.RoundedButton roundedButton3;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private BrbVideoManager.Controls.RoundedButton roundedButton4;
     }
 }
 
