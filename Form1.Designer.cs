@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.roundedButton3 = new BrbVideoManager.Controls.RoundedButton();
             this.roundedButton1 = new BrbVideoManager.Controls.RoundedButton();
             this.roundedButton2 = new BrbVideoManager.Controls.RoundedButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.roundedPanel1 = new YourNamespace.RoundedPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -55,23 +55,6 @@
             this.panel1.Size = new System.Drawing.Size(460, 977);
             this.panel1.TabIndex = 3;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-16, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1455, 245);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // roundedButton3
             // 
             this.roundedButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -83,7 +66,7 @@
             this.roundedButton3.BorderRadius = 60;
             this.roundedButton3.BorderWidth = 1.75F;
             this.roundedButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton3.Font = new System.Drawing.Font("Barlow SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roundedButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(30)))), ((int)(((byte)(34)))));
             this.roundedButton3.Location = new System.Drawing.Point(75, 854);
             this.roundedButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -109,7 +92,7 @@
             this.roundedButton1.BorderRadius = 60;
             this.roundedButton1.BorderWidth = 1.75F;
             this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton1.Font = new System.Drawing.Font("Barlow SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roundedButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton1.ForeColor = System.Drawing.Color.White;
             this.roundedButton1.Location = new System.Drawing.Point(75, 774);
             this.roundedButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -133,7 +116,7 @@
             this.roundedButton2.BorderRadius = 60;
             this.roundedButton2.BorderWidth = 1.75F;
             this.roundedButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.roundedButton2.Font = new System.Drawing.Font("Barlow SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roundedButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(154)))), ((int)(((byte)(30)))), ((int)(((byte)(34)))));
             this.roundedButton2.Location = new System.Drawing.Point(75, 692);
             this.roundedButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -147,6 +130,23 @@
             this.roundedButton2.UseMnemonic = false;
             this.roundedButton2.UseVisualStyleBackColor = true;
             this.roundedButton2.Click += new System.EventHandler(this.RoundedButton2_Click_1);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-16, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1455, 245);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // roundedPanel1
             // 
